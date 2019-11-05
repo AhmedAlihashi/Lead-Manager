@@ -1,12 +1,14 @@
 import React, { Component } from "react";
 
 export class Form extends Component {
+  state = {
+    name: "",
+    email: "",
+    message: ""
+  };
+
   render() {
-    return (
-      <div>
-        <h1>add lead form</h1>
-      </div>
-    );
+    return <div className="card card-body"></div>;
   }
 }
 
