@@ -30,7 +30,7 @@ export const delLead = id => dispatch => {
 };
 
 //add lead
-export const addlead = lead => dispatch => {
+export const addLead = lead => dispatch => {
   axios
     .post("/api/leads/", lead)
     .then(res => {
